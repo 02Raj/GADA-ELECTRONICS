@@ -1,0 +1,50 @@
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Replace with the actual background color */
+    padding: 20px;
+  }
+  
+  .banner-content h1 {
+    font-size: 3rem;
+    color: #004aad; /* Replace with the exact color of the heading */
+    margin-bottom: 1rem;
+  }
+  
+  .banner-content p {
+    color: #627d98; /* Replace with the exact color of the paragraph */
+    font-size: 1.25rem;
+    letter-spacing: 1.5px;
+   
+  }  
+
+  .shop-now-btn {
+    font-family: 'Arial', sans-serif; /* Replace with the actual font used in the image */
+    background-color: #0056b3; /* Replace with the button color from the image */
+    color: #ffffff; /* Text color, assumed to be white */
+    border: 2px solid
+  }  
+
+  /* categories.component.scss */
+.category-container {
+  margin: 1em;
+  font-family: 'YourFont', sans-serif; /* Replace 'YourFont' with the actual font you want to use */
+}
+
+.p-grid {
+  margin-top: 1em;
+}
+
+.p-col {
+  display: flex;
+  justify-content: center;
+}
+
+.p-card {
+  width: 90%;
+  margin-bottom: 2em;
+  background-color: red; /* Replace with the color you picked */
+  color: #333; /* Replace with the font color you picked */
+ 
+}

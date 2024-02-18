@@ -1,0 +1,25 @@
+<div class="banner-container">
+    <div class="banner-content" style="margin-left: 14%;">
+      <h1>Experience Electronics <br> Redefined: Unleash <br> Innovation</h1>
+      <p>Discover the Future of Electronics: Unleash Innovation, Immerse <br>
+         in Unparalleled Quality. Experience our cutting-edge technology <br>
+          and elevate your everyday with Gada Electronics. Explore the <br> extraordinary today.</p>
+      <button class="shop-now-btn">Shop Now</button>
+    </div>
+    <div class="banner-image">
+      <!-- Replace 'path-to-your-image.jpg' with the path to your image -->
+      <img src="https://gada-electronics-ecommerce.vercel.app/static/media/jethalalBanner.b85df2c2c87cb9eb3d1f.png" alt="Gada Electronics">
+    </div>
+  </div>
+  
+
+  <!-- categories.component.html -->
+<div class="category-container">
+  <div class="p-grid">
+    <div class="p-col" *ngFor="let category of categories">
+      <p-card [header]="category.title" [style]="{'text-align':'center'}">
+        <img src="{{ category.imageUrl }}" alt="{{ category.title }}" style="width:100%">
+      </p-card>
+    </div>
+  </div>
+</div>
